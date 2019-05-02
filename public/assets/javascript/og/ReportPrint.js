@@ -5,8 +5,8 @@ og.reports.createPrintWindow = function(title) {
 	
 	printWindow.document.open(); 
 	printWindow.document.write('<html><head><title>' + title + '</title>');
-	printWindow.document.write('<link href="' + og.hostName + '/public/assets/themes/default/stylesheets/website.css" rel="stylesheet" type="text/css">');
-	printWindow.document.write('<link href="' + og.hostName + '/public/assets/themes/default/stylesheets/general/rewrites.css" rel="stylesheet" type="text/css">');
+	printWindow.document.write('<link href="' + og.hostName + '/assets/themes/default/stylesheets/website.css" rel="stylesheet" type="text/css">');
+	printWindow.document.write('<link href="' + og.hostName + '/assets/themes/default/stylesheets/general/rewrites.css" rel="stylesheet" type="text/css">');
 	printWindow.document.write('</head><body onLoad="self.print()" id="body" style="padding:10px;">');
 	printWindow.document.write(og.reports.buildReportHeader(title));
 	return printWindow;

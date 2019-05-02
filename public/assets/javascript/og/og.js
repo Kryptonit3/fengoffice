@@ -57,7 +57,7 @@ og.msg =  function(title, text, timeout, classname, sound) {
 		m.slideIn('t');
 	}
 	if (sound) {
-		og.systemSound.loadSound('public/assets/sounds/' + sound + '.mp3', true);
+		og.systemSound.loadSound('assets/sounds/' + sound + '.mp3', true);
 		og.systemSound.start(0);
 	}
 };
@@ -1319,7 +1319,7 @@ og.checkDownload = function(url, checkedOutById, checkedOutBy, file_id) {
 };
 
 og.getScriptUrl = function(script) {
-	return og.getHostName() + "/public/assets/javascript/" + script;
+	return og.getHostName() + "/assets/javascript/" + script;
 };
 
 og.loadScripts = function(urls, config) {

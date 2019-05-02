@@ -220,7 +220,7 @@ og.FileManager = function() {
 				og.getUrl('files', 'download_file', {id: r.id, mod:Ext.id()}), r.data.checkedOutById, r.data.checkedOutByName, lang('download'), r.id);
 			}			
 		}else{
-			actions += String.format("<a href='{0}' class='list-action ico-open-link' target='_blank'" + actionStyle + ">&nbsp;</a>&nbsp;", r.data.url, 'public/assets/themes/default/images/16x16/openlink.png');
+			actions += String.format("<a href='{0}' class='list-action ico-open-link' target='_blank'" + actionStyle + ">&nbsp;</a>&nbsp;", r.data.url, 'assets/themes/default/images/16x16/openlink.png');
 		}
 		
 		if (r.data.isModifiable) {

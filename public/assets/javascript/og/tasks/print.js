@@ -39,11 +39,11 @@ ogTasks.createPrintWindow = function(){
 	printWindow.document.open(); 
 	printWindow.document.write('<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml">');
 	printWindow.document.write('<html><head><title>' + lang('tasks list') + '</title>'); 
-	printWindow.document.write('<LINK href="' + og.hostName + '/public/assets/themes/default/stylesheets/og/printTasks.css" rel="stylesheet" type="text/css">');
-	printWindow.document.write('<LINK href="' + og.hostName + '/public/assets/themes/default/stylesheets/og/tasks.css" rel="stylesheet" type="text/css">');
-	printWindow.document.write('<link href="' + og.hostName + '/public/assets/themes/default/stylesheets/website.css" rel="stylesheet" type="text/css">');
-	printWindow.document.write('<link href="' + og.hostName + '/public/assets/themes/default/stylesheets/ogmin.css" rel="stylesheet" type="text/css">');
-	printWindow.document.write('<link href="' + og.hostName + '/public/assets/themes/default/stylesheets/general/rewrites.css" rel="stylesheet" type="text/css">');
+	printWindow.document.write('<LINK href="' + og.hostName + '/assets/themes/default/stylesheets/og/printTasks.css" rel="stylesheet" type="text/css">');
+	printWindow.document.write('<LINK href="' + og.hostName + '/assets/themes/default/stylesheets/og/tasks.css" rel="stylesheet" type="text/css">');
+	printWindow.document.write('<link href="' + og.hostName + '/assets/themes/default/stylesheets/website.css" rel="stylesheet" type="text/css">');
+	printWindow.document.write('<link href="' + og.hostName + '/assets/themes/default/stylesheets/ogmin.css" rel="stylesheet" type="text/css">');
+	printWindow.document.write('<link href="' + og.hostName + '/assets/themes/default/stylesheets/general/rewrites.css" rel="stylesheet" type="text/css">');
 	
 	printWindow.document.write('</head><body onLoad="self.print()">');
 	return printWindow;
@@ -90,7 +90,7 @@ ogTasks.printGroupTasks = function(group, printWindow){
 		}
 		
 		sb.append("<div class='task' style='margin-left:" + (4 + (level * 15)) + "px;'>");
-		sb.append("<table style='width:100%'><tr><td width=20><img src='" + og.hostName + "/public/assets/themes/default/images/16x16/wscolors/color" + color + ".png' style='padding-right:3px'/></td><td>");
+		sb.append("<table style='width:100%'><tr><td width=20><img src='" + og.hostName + "/assets/themes/default/images/16x16/wscolors/color" + color + ".png' style='padding-right:3px'/></td><td>");
 		if(task.assignedToId && (displayCriteria.group_by != 'assigned_to' || task.assignedToId != group.group_id)) {
 			sb.append("<b>" + og.clean(this.getUserCompanyName(task.assignedToId)) + '</b>:&nbsp;');
 		}
@@ -142,7 +142,7 @@ ogTasks.printGroupTasks = function(group, printWindow){
 					var pauses = (task.workingOnPauses + ' ').split(',');
 					var userPaused = pauses[j] == 1;
 				}
-			sb.append("<td><img src='" + og.hostName + "/public/assets/themes/default/images/16x16/time.png' style='padding-right:3px'/></td>");
+			sb.append("<td><img src='" + og.hostName + "/assets/themes/default/images/16x16/time.png' style='padding-right:3px'/></td>");
 			sb.append("<td class='ogTasksTimeTd' style='background-color:transparent;white-space:nowrap'>");
 			for (var j = 0; j < ids.length; j++){
 				var user = this.getUser(ids[j]);

@@ -15,7 +15,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 var Sound = function(swf) {
 	if (!swf) {
-		swf = "public/assets/flash/SoundBridge.swf";
+		swf = "assets/flash/SoundBridge.swf";
 	}
 	if (!Sound.count) {
 		Sound.count = 1;

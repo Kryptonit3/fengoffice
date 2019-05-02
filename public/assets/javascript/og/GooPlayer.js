@@ -44,7 +44,7 @@ og.GooPlayer = function(config) {
     		'<table class="gooplayer-info"><tr><td class="gooplayer-name">' + lang('song') + ':</td><td>{1}</td></tr>' +
     		'<tr><td class="gooplayer-name">' + lang('artist') + ':</td><td>{2}</td></tr>' +
     		'<tr><td class="gooplayer-name">' + lang('album') + ':</td><td>{3}</td></tr></table>';
-    this.defaultImage = 'public/assets/themes/default/images/48x48/gooplayer.png';
+    this.defaultImage = 'assets/themes/default/images/48x48/gooplayer.png';
 	
 	Ext.apply(config, {
 		layout: 'border',

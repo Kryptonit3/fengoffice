@@ -28,10 +28,10 @@ og.PrintCalendar.createPrintWindow = function(genid){
 	printWindow.document.open(); 
 	printWindow.document.write('<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml">');
 	printWindow.document.write('<html><head><title>' + lang('print') + '</title>'); 
-	printWindow.document.write('<link href="' + og.hostName + '/public/assets/themes/default/stylesheets/website.css" rel="stylesheet" type="text/css">');
-	printWindow.document.write('<link href="' + og.hostName + '/public/assets/themes/default/stylesheets/event/week.css" rel="stylesheet" type="text/css">');
-	printWindow.document.write('<link href="' + og.hostName + '/public/assets/themes/default/stylesheets/event/day.css" rel="stylesheet" type="text/css">');
-	printWindow.document.write('<link href="' + og.hostName + '/public/assets/themes/default/stylesheets/calendar_print.css" rel="stylesheet" type="text/css">');
+	printWindow.document.write('<link href="' + og.hostName + '/assets/themes/default/stylesheets/website.css" rel="stylesheet" type="text/css">');
+	printWindow.document.write('<link href="' + og.hostName + '/assets/themes/default/stylesheets/event/week.css" rel="stylesheet" type="text/css">');
+	printWindow.document.write('<link href="' + og.hostName + '/assets/themes/default/stylesheets/event/day.css" rel="stylesheet" type="text/css">');
+	printWindow.document.write('<link href="' + og.hostName + '/assets/themes/default/stylesheets/calendar_print.css" rel="stylesheet" type="text/css">');
 	//printWindow.document.write('<style type="text/css" media="print">div.page {writing-mode: tb-rl;height: 80%;margin: 10% 0%;}</style>');
 	printWindow.document.write('</head><body onLoad="self.print()"><div class="page">');
 	return printWindow;
