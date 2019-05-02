@@ -11,7 +11,7 @@ if($current_member instanceof Member){
             <div style="overflow:hidden; float: left; width: 90%; text-overflow: ellipsis; white-space: nowrap;" class="widget-title" onclick="og.dashExpand('<?php echo $genid?>');"><?php echo (isset($widget_title)) ? $widget_title : lang("activity");?></div>                
 			<div class="dash-expander ico-dash-expanded" id="<?php echo $genid; ?>expander" onclick="og.dashExpand('<?php echo $genid?>');"></div>
             <div style="z-index:1; width:16px; float: right; margin-right: 5px; margin-top: 1px;" id="<?php echo $genid; ?>configFilters" onclick="og.quickForm({ type: 'configFilter', genid: '<?php echo $genid; ?>', members:'<?php echo $member_id ?>'});">
-            	<img src="public/assets/themes/default/images/16x16/administration.png"/>
+            	<img src="assets/themes/default/images/16x16/administration.png"/>
             </div>
 	</div>
 	

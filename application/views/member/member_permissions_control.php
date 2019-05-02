@@ -204,11 +204,11 @@
 		?>
 			<button title="<?php echo lang('cancel')?>" class="add-first-btn" onclick="og.userPermissions.cancelPermissionsModification('<?php echo $genid ?>', og.userPermissions.current_pg_id); og.ExtModal.hide();" 
 				id="<?php echo $genid?>_cancel_btn" style="margin-right:10px;">
-				<img src="public/assets/themes/default/images/16x16/del.png">&nbsp;<?php echo lang('cancel')?>
+				<img src="assets/themes/default/images/16x16/del.png">&nbsp;<?php echo lang('cancel')?>
 			</button>
 			
 			<button title="<?php echo lang('save changes')?>" class="add-first-btn" onclick="<?php echo $save_perms_fn?> og.userPermissions.afterChangingPermissions('<?php echo $genid?>'); og.ExtModal.hide();" id="<?php echo $genid?>_close_btn">
-				<img src="public/assets/themes/default/images/16x16/save.png">&nbsp;<?php echo lang('save changes')?>
+				<img src="assets/themes/default/images/16x16/save.png">&nbsp;<?php echo lang('save changes')?>
 			</button>
 			
 		  </div>

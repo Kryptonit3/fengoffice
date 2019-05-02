@@ -40,7 +40,7 @@ border-bottom:1px solid black;
 <div class="print" style="padding:7px;width:100%;max-width:1000px">
 
 <div class="printHeader">
-<table style="width:100%"><tr><td style="width:44px"><img src="public/assets/themes/default/images/32x32/tasks.png"/></td>
+<table style="width:100%"><tr><td style="width:44px"><img src="assets/themes/default/images/32x32/tasks.png"/></td>
 <td><h1 style="<?php echo $task->isCompleted()? 'text-decoration:line-through' : '' ?>"><?php echo clean($task->getObjectName()) ?></h1></td><td align=right style="color:#666;padding-left:10px">
 <?php if ($task->getStartDate() || $task->getDueDate() ) { ?>
 <table style="white-space:nowrap"><?php
@@ -107,7 +107,7 @@ border-bottom:1px solid black;
 	$hasIncompleteSubtasks = is_array($task->getOpenSubTasks()) && count($task->getOpenSubTasks()) > 0;
 	$hasCompletedSubtasks = is_array($task->getCompletedSubTasks()) && count($task->getCompletedSubTasks()) > 0;
 if ($hasIncompleteSubtasks || $hasCompletedSubtasks) { ?>
-<div style="margin-bottom:0px;margin-top:20px"><img src="public/assets/themes/default/images/16x16/tasks.png"/>&nbsp;&nbsp;<b><?php echo lang('subtasks') ?>:</b></div>
+<div style="margin-bottom:0px;margin-top:20px"><img src="assets/themes/default/images/16x16/tasks.png"/>&nbsp;&nbsp;<b><?php echo lang('subtasks') ?>:</b></div>
 <ul style="margin-top:2px">
 <?php
 	if ($hasIncompleteSubtasks) {

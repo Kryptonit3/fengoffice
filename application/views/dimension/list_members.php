@@ -89,7 +89,7 @@
 	<div class="title">
 		<div class="titletext"><?php echo $dimension_name ?></div>
 		<button title="<?php echo lang('close')?>" style="float:left; margin: -15px 0 0 0px;" class="add-first-btn" onclick="og.goback(this)">
-			<img src="public/assets/themes/default/images/layout/close16.png" style="margin-bottom:-1px;">&nbsp;<?php echo lang('close')?>
+			<img src="assets/themes/default/images/layout/close16.png" style="margin-bottom:-1px;">&nbsp;<?php echo lang('close')?>
 		</button>
 		<div class="clear"></div>
 	</div>
@@ -104,7 +104,7 @@
 			if (!is_array($info)) continue;
 			?>
 			<button title="<?php echo $info['name']?>" style="float:left; margin: 10px 0 0 <?php echo $margin_left?>;" class="add-first-btn" onclick="og.openLink('<?php echo  $info['url']?>');">
-				<img src="public/assets/themes/default/images/16x16/add.png">&nbsp;<?php echo $info['name']?>
+				<img src="assets/themes/default/images/16x16/add.png">&nbsp;<?php echo $info['name']?>
 			</button>
 		<?php
 			$margin_left = '20px'; 

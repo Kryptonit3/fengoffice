@@ -88,7 +88,7 @@ if (!isset($genid)) $genid = gen_id();
 	<div class="title">
 		<div class="titletext"><?php echo lang('settings')?></div>
 		<button title="<?php echo lang('back')?>" style="float:left; margin: -10px 0 0 0;" class="add-first-btn" onclick="og.goback(this)">
-			<img src="public/assets/themes/default/images/16x16/back.png">&nbsp;<?php echo lang('back')?>
+			<img src="assets/themes/default/images/16x16/back.png">&nbsp;<?php echo lang('back')?>
 		</button>
 		<div class="clear"></div>
 	</div>

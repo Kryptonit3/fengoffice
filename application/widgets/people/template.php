@@ -64,7 +64,7 @@
 				
 					<button style="overflow: hidden; width:auto;" id="add-person-form-show" class="add-first-btn"
 						onclick="og.openLink(og.getUrl('contact','add')); return false;">
-						<img src="public/assets/themes/default/images/16x16/add.png"/>&nbsp;<?php echo lang('add contact');?>
+						<img src="assets/themes/default/images/16x16/add.png"/>&nbsp;<?php echo lang('add contact');?>
 					</button>
 				
 				<?php } ?>

@@ -14,7 +14,7 @@
 		</div>
 		
 		<button title="<?php echo lang('close')?>" style="float:right; margin: -30px 0 0 15px;" class="add-first-btn" onclick="og.save_user_and_groups_changes(this)">
-			<img src="public/assets/themes/default/images/layout/close16.png" style="margin-bottom:-1px;">&nbsp;<?php echo lang('close')?>
+			<img src="assets/themes/default/images/layout/close16.png" style="margin-bottom:-1px;">&nbsp;<?php echo lang('close')?>
 		</button>
 	</div>
 	<div class="clear"></div>
@@ -56,7 +56,7 @@ foreach ($groups as $gr) {
 			</ul>
 			<div class="clear"></div>
 			<button title="<?php echo lang('add new group')?>" class="add-first-btn blue" onclick="og.openLink(og.getUrl('group','add'));">
-				<img src="public/assets/themes/default/images/16x16/add.png" />&nbsp;<?php echo lang('add new group')?>
+				<img src="assets/themes/default/images/16x16/add.png" />&nbsp;<?php echo lang('add new group')?>
 			</button>
 			<div class="clear"></div>
 		</div>

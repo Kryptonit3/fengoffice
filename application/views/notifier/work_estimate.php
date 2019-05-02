@@ -11,7 +11,7 @@
                     unset($attachments['logo']);
                 }else{  
                 ?>
-                    <img src="<?php echo ROOT_URL . '/public/assets/themes/default/images/layout/logo_1.png' ?>"/>
+                    <img src="<?php echo ROOT_URL . '/assets/themes/default/images/layout/logo_1.png' ?>"/>
                 <?php } ?>  
             </div> 
             <div style="width: 700px; float: left; font-size: 13px;  margin-top: 10px">

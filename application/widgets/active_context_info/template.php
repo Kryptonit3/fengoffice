@@ -42,11 +42,11 @@
             ?>
 
             <button class="btn" style="margin-left:10px;" onclick="<?php echo $edit_onclick ?>" title="<?php echo lang('edit')?>">
-                <img alt="" style="height: 15px" src="public/assets/themes/default/images/icons-feng-3/16x16/edit_color.png">
+                <img alt="" style="height: 15px" src="assets/themes/default/images/icons-feng-3/16x16/edit_color.png">
                 <?php echo lang('edit')?>
             </button>
             <button class="btn" style="margin-left:10px;" onclick="og.goToParent('<?php echo $member->getDimension()->getCode() ?>','<?php echo $member->getDimensionId() ?>')" title="<?php echo lang('close')?>">
-                <img alt="" style="height: 15px" src="public/assets/themes/default/images/layout/close16.png">
+                <img alt="" style="height: 15px" src="assets/themes/default/images/layout/close16.png">
                 <?php echo lang('close') ?>
             </button>
         </div>

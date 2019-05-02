@@ -88,7 +88,7 @@ function _ofc( $width, $height, $url, $div_name=null, $use_swfobject, $base )
     if( !isset( $open_flash_chart_seqno ) )
     {
         $open_flash_chart_seqno = 1;
-        $out[] = '<script type="text/javascript" src="'. $base .'public/assets/javascript/og/swfobject.js"></script>';
+        $out[] = '<script type="text/javascript" src="'. $base .'assets/javascript/og/swfobject.js"></script>';
     }
     else
     {

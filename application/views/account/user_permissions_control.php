@@ -167,10 +167,10 @@ foreach ( $dimensions as $dimension ) {
 	
 		<div style="float:right;margin-top:5px;">
 			<button class="add-first-btn" onclick="$('#<?php echo $genid?>_close_link').click();" id="<?php echo $genid?>_cancel_btn" style="margin-right:10px;">
-				<img src="public/assets/themes/default/images/16x16/del.png">&nbsp;<?php echo lang('cancel')?>
+				<img src="assets/themes/default/images/16x16/del.png">&nbsp;<?php echo lang('cancel')?>
 			</button>
 			<button class="add-first-btn" onclick="$('#<?php echo $genid?>_close_link').click(); og.afterChangingPermissions('<?php echo $genid?>');" id="<?php echo $genid?>_save_btn">
-				<img src="public/assets/themes/default/images/16x16/save.png">&nbsp;<?php echo lang('save changes')?>
+				<img src="assets/themes/default/images/16x16/save.png">&nbsp;<?php echo lang('save changes')?>
 			</button>
 		</div>
 		
